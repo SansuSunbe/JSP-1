@@ -33,22 +33,23 @@
 
 1. Dynamic Web Project 선택
 
-![image.png](image.png)
+![image](https://github.com/user-attachments/assets/fb20f233-1145-47ed-802a-2fe6e729a509)
 
-1. 항목 표시 후 Finish 클릭
+2. 항목 표시 후 Finish 클릭
 
-![image.png](image%201.png)
+![image 1](https://github.com/user-attachments/assets/a9134078-5baa-4952-b082-18573d4ced9f)
 
 # 라이브러리 버젼 변경하기
 
 1. 프로젝트 우클릭 후 Build Path 클릭 후 하위 항목 들어가기
 
-![image.png](image%202.png)
+![image 2](https://github.com/user-attachments/assets/6ad1aa6c-ee8d-475c-9f61-6ac1ba439310)
 
-1. 라이브러리에 들어가서 라이브러리 버전 선택 후 Remove 클릭
+2. 라이브러리에 들어가서 라이브러리 버전 선택 후 Remove 클릭
 
-![image.png](image%203.png)
+![image 3](https://github.com/user-attachments/assets/bcf784ef-23c6-4af8-b6e5-c31a0ee31557)
 
-1. 에드 라이브러리 클릭 후 JRE 시스템 라이브러리 추가
+3. 에드 라이브러리 클릭 후 JRE 시스템 라이브러리 추가
 
-![image.png](image%204.png)
+![image 4](https://github.com/user-attachments/assets/5daa492b-b8be-4c63-bdd0-94c6b85d7143)
+
