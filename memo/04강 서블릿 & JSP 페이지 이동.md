@@ -4,33 +4,33 @@
 
 - 프로젝트의 build path에 들어간다.
 
-![image.png](image.png)
+![image](https://github.com/user-attachments/assets/92c8e1d9-a7c1-472e-bda2-fd4fbca685ae)
 
 - Class Path 클릭 후 라이브러리 추가를 누른다.
 
-![image.png](image%201.png)
+![image 1](https://github.com/user-attachments/assets/eec790f6-87fa-4e29-b00d-84ac400cfc53)
 
 - 설치한 톰캣을 추가해준다.
 
-![image.png](image%202.png)
+![image 2](https://github.com/user-attachments/assets/f6dc9379-7dff-4181-8bba-f14a070444f2)
 
 - Order and Export 에서 모든 항목 체크 후 적용 후 닫는다.
 
-![image.png](image%203.png)
+![image 3](https://github.com/user-attachments/assets/c3a845a8-ff7f-4e07-8d40-70b0e4fd73e5)
 
 - 그래도 오류가 생긴다면 지시어에 “<%@“를 → “<% @” 띄웠다 붙여주고 저장한다.
     
-    ![image.png](image%204.png)
-    
+![image 4](https://github.com/user-attachments/assets/6556241d-b3ac-41eb-a711-874a5dd495b7)
+
 - 띄어쓰기 후 되돌리기 하니 에러가 사라짐
 
-![image.png](image%205.png)
+![image 5](https://github.com/user-attachments/assets/37927122-bf7c-4586-9634-93bf40574110)
 
 # SERVLET 파일 생성
 
 - src 경로에 servlet 파일을 생성해준다.
 
-![image.png](image%206.png)
+![image 6](https://github.com/user-attachments/assets/d5f3123d-91bc-4a53-9010-10bf99ad450e)
 
 # jsp & servlet 간의 이동
 
@@ -113,7 +113,7 @@ public class MyServlet extends HttpServlet {
 
 - method 방식을 post 방식으로 보낼 때 web.xml을 <url-mapping> 태그로 이용자에게 나타날 페이지 주소를 감출 수 있다.
 
-![image.png](image%207.png)
+![image 7](https://github.com/user-attachments/assets/faf650ff-bbd2-436c-a9cd-c90188fca4c6)
 
 ```java
 <?xml version="1.0" encoding="UTF-8"?>
@@ -143,11 +143,11 @@ public class MyServlet extends HttpServlet {
 
 - get 방식으로 전달할 때의 주소
 
-![image.png](image%208.png)
+![image 8](https://github.com/user-attachments/assets/bc18cdf8-1554-4f61-bc85-55b84fe17895)
 
 - post 방식으로 전달할 때의 주소
-
-![image.png](image%209.png)
+  
+![image 9](https://github.com/user-attachments/assets/48345b06-3f6c-44b0-b3b0-ce7c42fbb8a1)
 
 - post 방식으로 전달하게 되면 web.xml을 한번 더 거치게 된다.
 - 즉 보안 면에서는 post 방식이 더 우위지만 속도 면에서는 get 방식에 비해 떨어지게 된다.
